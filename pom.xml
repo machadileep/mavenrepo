@@ -73,14 +73,15 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-   <snapshotRepository>
-      <id>nexus</id>
-      <url>http://localhost:8081/nexus/content/repositories/devops-team-snapshot</url>
-   </snapshotRepository>
    <repository>
         <id>nexus</id>        
         <url>http://localhost:8081/nexus/content/repositories/devops-team-release</url>
     </repository>
+   <snapshotRepository>
+      <id>nexus</id>
+      <url>http://localhost:8081/nexus/content/repositories/devops-team-snapshot</url>
+   </snapshotRepository>
+   
 </distributionManagement>
 <scm>
    <connection>scm:git:git@github.com:machadileep/mavenrepo.git</connection>
