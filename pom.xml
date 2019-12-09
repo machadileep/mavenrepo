@@ -72,15 +72,16 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-   <repository>
-        <id>nexus</id>        
-        <url>http://localhost:8081/nexus/content/repositories/devops-team-release</url>
+    <repository>
+        <id>DESKTOP-UT8FQNI</id>
+        <name>DESKTOP-UT8FQNI-releases</name>
+        <url>http://localhost:8081/artifactory/devops-team-releases</url>
     </repository>
-   <snapshotRepository>
-      <id>nexus</id>
-      <url>http://localhost:8081/nexus/content/repositories/devops-team-snapshot</url>
-   </snapshotRepository>
-   
+	<snapshotRepository>
+        <id>DESKTOP-UT8FQNI</id>
+        <name>DESKTOP-UT8FQNI-snapshots</name>
+        <url>http://localhost:8081/artifactory/devops-team-snapshots</url>
+    </snapshotRepository>   
 </distributionManagement>
 <scm>
    <connection>scm:git:git@github.com:machadileep/mavenrepo.git</connection>
