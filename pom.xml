@@ -83,10 +83,10 @@
         <url>http://localhost:8081/artifactory/devops-team-snapshots</url>
     </snapshotRepository>   
 </distributionManagement>
-<scm>
+<!--<scm>
    <connection>scm:git:git@github.com:machadileep/mavenrepo.git</connection>
    <url>https://github.com/machadileep/mavenrepo</url>
    <developerConnection>scm:git:git@github.com:machadileep/mavenrepo.git</developerConnection>
   <tag>v3.0</tag>
-  </scm>
+  </scm> -->
 </project>
